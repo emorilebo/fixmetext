@@ -80,11 +80,11 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 _guessFunction();
               },
-              child: Text("Guess Number"),
+              child: const Text("Guess Number"),
             ),
             ElevatedButton(
               onPressed: () {},
-              child: Text("Want to play Again"),
+              child: const Text("Want to play Again"),
             ),
           ],
         ),
