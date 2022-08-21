@@ -34,8 +34,8 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _guess = Random().nextInt(99);
-  TextEditingController userGuessValue = new TextEditingController();
-  String won = "You won";
+  TextEditingController userGuessValue = TextEditingController();
+  String won = "You won!!!";
   String fail = "You failed";
 
   void _guessFunction() {
