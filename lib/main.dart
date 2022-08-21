@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             TextField(
               controller: userGuessValue,
-              decoration: InputDecoration(hintText: 'Guess your number'),
+              decoration: const InputDecoration(hintText: 'Guess your number'),
             ),
             Text(
               '$_guess', //Need to hide the number from the user
