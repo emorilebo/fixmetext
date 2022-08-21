@@ -40,14 +40,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _guessFunction() {
     print(_guess);
-    if (_guess == userGuessValue) {
-      setState(() {
-        won;
-      });
-    } else {
-      setState(() {
-        fail;
-      });
+    for (int i = 0; i <= 5; i++) {
+      if (_guess == userGuessValue) {
+        setState(() {
+          won;
+        });
+      } else {
+        setState(() {
+          fail;
+        });
+      }
     }
   }
 
